@@ -1,0 +1,87 @@
+<html> <!--opening file tag for html of webpage-->
+<head> <!--Browswer tab section-->
+<title>Stem secondpage</title> <!--Title of tab-->
+
+<link rel="stylesheet" href="css/style2.css">
+
+<script>
+function JSButtonSection(){alert("Go" + " " + "girl" + " " + "power," + " " + "one" + " " + "way" + " " + "or" + " " + "the" + " " + "other" + " "
+ + "we" + " "+ "will" + " "+ "win")};
+</script>
+
+<h2>Today's date</h2>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date("2021-10-05");
+document.getElementById("demo").innerHTML = d;
+</script>
+
+<script>
+function bigImg (x) {
+  x.style.height= "500px";
+  x.style.width= "500px";}
+
+function normalImg (x) {
+    x.style.height= "200px";
+    x.style.width= "200px";}
+</script>
+
+</head> <!--closing tag - end of header section-->
+
+<body> <!--body of the page - the white/blank section-->
+<hr> <!--horizontal line across the page (optional)-->
+<H1 align="center">Mechanical Engineering</H1>
+<hr>
+
+<p align="center"><b>“We need to understand that if we all work on inclusion together<b></p>
+<p align="center"><b><b>it’s going to be faster, broader, better, and more thorough than anything we can do on our own.”</p>
+<p align="center"><b><b>-Ellen Pao</p>
+
+
+<br>
+<div align="center">
+  <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/pic1.png" alt="pic1" width="200" height="200">
+  <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/pic2.png" alt="pic2" width="200" height="200">
+
+</div>
+
+<br>
+<hr>
+<table>
+<th> NAME</th>
+<th> What did they do? </th>
+<th> Picture </th>
+<br>
+<tr>
+  <td>Christina Koch</td>
+  <td>Working on board the International Space Station in December 2018 on her first spaceflight as part of Expedition 59, 60, and 61, Christina Koch broke the record for the longest single spaceflight by a woman set by former station commander Peggy Whitson. Koch achieved another historic milestone when she took part in the first all-female spacewalk in October 2019 with Jessica Meir. Koch graduated from North Carolina State University with a bachelor’s degree in electrical engineering and physics and a master’s degree in electrical engineering.</td>
+  <td><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/wm2.jpg" alt="wm2" width="200" height="200"></td>
+</tr>
+
+<tr>
+  <td>Katie Weimer</td>
+  <td>Katie Weimer is revolutionizing healthcare by combining powerful digital workflows with the ability to create templates, guides, instruments, and even implants using 3D-printing technologies. Weimer received her undergraduate degree in mechanical engineering as well as master’s degree in mechanical engineering from the University of Missouri, Kansas City. Originally with Medical Modeling, she moved over to 3D Systems when the company was acquired in 2013 and has taken on roles of increasing responsibility since then.</td>
+  <td><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/wm3.jpg" alt="wm3" width="200" height="200"></td>
+</tr>
+
+<tr>
+  <td>Kate Gleason</td>
+  <td>At age 19, Kate Gleason became the first woman engineering student to enroll in the Mechanical Arts program at Cornell University, but her father's shop in Rochester soon came upon hard times. She was called home and never was able to return to complete the requirements for a degree. However, through training and self-learning she earned the title of engineer and is recognized for her considerable accomplishments. Some of her education came from courses at the Sibley College of Engraving and the Mechanics Institute, which became Rochester Institute of Technology.</td>
+  <td><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/wm4.jpg" alt="wm4" width="200" height="200"></td>
+</tr>
+</table>
+<hr>
+
+<nav>
+<a href="index.html">home main page</a><!--linking html links to the first page-->
+<a href="pagetwo.html">Second page</a><!--linking html links to the second page-->
+</nav>
+<hr>
+<br>
+
+<button onclick="JSButtonSection()">More infor</button><!--Button for running JS function-->
+
+</body>
+</html>
